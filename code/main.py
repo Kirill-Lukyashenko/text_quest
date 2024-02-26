@@ -13,7 +13,7 @@ if __name__ == "__main__":
 id = 1
 while start:
     text.show_text_by_id(script_arr, id)
-    command = str(input('   ответ Скуфа ->'))
+    command = str(input('   ваш ответ ->'))
     if command != '  ':
         id += 1
     else:
