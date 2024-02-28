@@ -14,7 +14,7 @@ id = 1
 while start:
     text.show_text_by_id(script_arr, id)
     command = str(input('   ваш ответ ->'))
-    if command != '  ':
+    if command != 'a':
         id += 1
     else:
         id == 1
